@@ -53,6 +53,9 @@
       <UniqueIdentifier>{4ae88b7a-b692-4083-a1e8-4b55fe84d2b7}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
+    <Filter Include="Source Files\Executer">
+      <UniqueIdentifier>{d462ed05-8091-440e-9aec-5b67ece73d0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\source\components\utilities\utaddress.c">
@@ -591,6 +594,39 @@
     </ClCompile>
     <ClCompile Include="..\..\source\common\cmfsize.c">
       <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utstrsuppt.c">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utascii.c">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\dispatcher\dspkginit.c">
+      <Filter>Source Files\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\dispatcher\dsdebug.c">
+      <Filter>Source Files\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\executer\exserial.c">
+      <Filter>Source Files\Executer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\executer\extrace.c">
+      <Filter>Source Files\Executer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\executer\exconcat.c">
+      <Filter>Source Files\Executer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utresdecode.c">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\disassembler\dmcstyle.c">
+      <Filter>Source Files\Disassembler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\ahuuids.c">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utuuid.c">
+      <Filter>Source Files\Utilities</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

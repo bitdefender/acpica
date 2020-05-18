@@ -198,7 +198,7 @@
 #define _COMPONENT          ACPI_UTILITIES
         ACPI_MODULE_NAME    ("utclib")
 
-
+#define ACPI_USE_SYSTEM_CLIBRARY // we don't want ACPICA to use the CRT but we also don't need it's own implementation
 #ifndef ACPI_USE_SYSTEM_CLIBRARY    /* Entire module */
 
 
@@ -1014,6 +1014,7 @@ tolower (
     return (isupper(c) ? ((c)+0x20) : (c));
 }
 
+#endif /* ACPI_USE_SYSTEM_CLIBRARY */
 
 /*******************************************************************************
  *
@@ -1164,5 +1165,3 @@ const UINT8 AcpiGbl_Ctypes[257] = {
     0                                 /* 0x100 */
 };
 
-
-#endif /* ACPI_USE_SYSTEM_CLIBRARY */

@@ -278,7 +278,10 @@
   <ItemGroup>
     <ClCompile Include="..\..\source\common\ahids.c" />
     <ClCompile Include="..\..\source\common\ahuuids.c" />
-    <ClCompile Include="..\..\source\common\cmfsize.c" />
+    <ClCompile Include="..\..\source\common\cmfsize.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\..\source\COMPONENTS\DEBUGGER\dbcmds.c" />
     <ClCompile Include="..\..\source\components\debugger\dbconvert.c" />
     <ClCompile Include="..\..\source\COMPONENTS\DEBUGGER\dbdisply.c" />

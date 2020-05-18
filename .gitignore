@@ -88,6 +88,12 @@ generate/msvc2017/.vs
 generate/msvc2017/*.y
 
 
+generate/msvc2019/AcpiSubsystem
+generate/msvc2019/AcpiSubsystemDebug
+generate/msvc2019/.vs
+generate/msvc2019/x64
+
+
 generate/msvc9/AcpiSrcLinuxDebug
 generate/msvc9/AcpiSubsystemLinux
 generate/msvc9/AcpiSubsystemLinuxDebug
